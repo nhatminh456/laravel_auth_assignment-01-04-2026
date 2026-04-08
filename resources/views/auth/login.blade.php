@@ -96,7 +96,8 @@
         </form>
 
         <div class="link">
-            Chua co tai khoan? <a href="{{ route('register') }}">Dang ky</a>
+            Tai khoan mau: admin@example.com / password<br>
+            Tai khoan mau: user@example.com / password
         </div>
     </div>
 </body>

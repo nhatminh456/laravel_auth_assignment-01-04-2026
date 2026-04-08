@@ -59,7 +59,13 @@
 <body>
     <div class="container">
         <h1>Dashboard</h1>
-        <p>Ban da dang nhap thanh cong.</p>
+        <p>
+            @if ($user->role === 'admin')
+            Welcome Admin
+            @else
+            Welcome User
+            @endif
+        </p>
 
         <div class="card">
             <div class="label">Ten</div>
@@ -70,6 +76,17 @@
             <div class="label">Email</div>
             <div class="value">{{ $user->email }}</div>
         </div>
+
+        <div class="card">
+            <div class="label">Role</div>
+            <div class="value">{{ $user->role }}</div>
+        </div>
+
+        @if ($user->role === 'admin')
+        <a href="{{ route('admin.index') }}" style="display:inline-block; margin-top: 16px; color:#0d6efd; text-decoration:none; font-weight:600;">
+            Vao trang admin
+        </a>
+        @endif
 
         <form method="POST" action="{{ route('logout') }}">
             @csrf

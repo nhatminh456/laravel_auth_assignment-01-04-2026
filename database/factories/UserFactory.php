@@ -86,6 +86,7 @@ class UserFactory extends Factory
 
 
 
+//trannhatminh
 
 
 
@@ -143,8 +144,7 @@ class UserFactory extends Factory
 
 
 
-
-
+//trannhatminh
 
 
 

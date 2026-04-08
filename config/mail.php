@@ -1,5 +1,5 @@
 <?php
-
+//trannhatminh
 return [
 
     /*
@@ -13,9 +13,9 @@ return [
     | "mailers" array. Examples of each type of mailer are provided.
     |
     */
-
+    //trannhatminh
     'default' => env('MAIL_MAILER', 'log'),
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Mailer Configurations
@@ -34,7 +34,7 @@ return [
     |            "failover", "roundrobin"
     |
     */
-
+    //trannhatminh
     'mailers' => [
 
         'smtp' => [
@@ -48,11 +48,11 @@ return [
             'timeout' => null,
             'local_domain' => env('MAIL_EHLO_DOMAIN', parse_url((string) env('APP_URL', 'http://localhost'), PHP_URL_HOST)),
         ],
-
+        //trannhatminh
         'ses' => [
             'transport' => 'ses',
         ],
-
+        //trannhatminh
         'postmark' => [
             'transport' => 'postmark',
             // 'message_stream_id' => env('POSTMARK_MESSAGE_STREAM_ID'),
@@ -60,25 +60,25 @@ return [
             //     'timeout' => 5,
             // ],
         ],
-
+        //trannhatminh
         'resend' => [
             'transport' => 'resend',
         ],
-
+        //trannhatminh
         'sendmail' => [
             'transport' => 'sendmail',
             'path' => env('MAIL_SENDMAIL_PATH', '/usr/sbin/sendmail -bs -i'),
         ],
-
+        //trannhatminh
         'log' => [
             'transport' => 'log',
             'channel' => env('MAIL_LOG_CHANNEL'),
         ],
-
+        //trannhatminh
         'array' => [
             'transport' => 'array',
         ],
-
+        //trannhatminh
         'failover' => [
             'transport' => 'failover',
             'mailers' => [
@@ -87,7 +87,7 @@ return [
             ],
             'retry_after' => 60,
         ],
-
+        //trannhatminh
         'roundrobin' => [
             'transport' => 'roundrobin',
             'mailers' => [
@@ -96,7 +96,7 @@ return [
             ],
             'retry_after' => 60,
         ],
-
+        //trannhatminh
     ],
 
     /*
@@ -116,3 +116,26 @@ return [
     ],
 
 ];
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            //trannhatminh

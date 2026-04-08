@@ -12,7 +12,8 @@ return [
     | based disks are available to your application for file storage.
     |
     */
-
+    //trannhatminh
+    //trannhatminh
     'default' => env('FILESYSTEM_DISK', 'local'),
 
     /*

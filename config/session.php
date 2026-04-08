@@ -3,7 +3,7 @@
 use Illuminate\Support\Str;
 
 return [
-
+    ////trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Default Session Driver
@@ -46,9 +46,9 @@ return [
     | automatically by Laravel and you may use the session like normal.
     |
     */
-
+    //trannhatminh
     'encrypt' => env('SESSION_ENCRYPT', false),
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Session File Location

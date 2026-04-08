@@ -3,7 +3,7 @@
 use App\Models\User;
 
 return [
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Authentication Defaults
@@ -14,7 +14,7 @@ return [
     | as required, but they're a perfect start for most applications.
     |
     */
-
+    //trannhatminh
     'defaults' => [
         'guard' => env('AUTH_GUARD', 'web'),
         'passwords' => env('AUTH_PASSWORD_BROKER', 'users'),
@@ -36,14 +36,14 @@ return [
     | Supported: "session"
     |
     */
-
+    //trannhatminh
     'guards' => [
         'web' => [
             'driver' => 'session',
             'provider' => 'users',
         ],
     ],
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | User Providers
@@ -60,7 +60,7 @@ return [
     | Supported: "database", "eloquent"
     |
     */
-
+    //trannhatminh
     'providers' => [
         'users' => [
             'driver' => 'eloquent',
@@ -72,7 +72,7 @@ return [
         //     'table' => 'users',
         // ],
     ],
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Resetting Passwords
@@ -81,7 +81,7 @@ return [
     | These configuration options specify the behavior of Laravel's password
     | reset functionality, including the table utilized for token storage
     | and the user provider that is invoked to actually retrieve users.
-    |
+    |//trannhatminh
     | The expiry time is the number of minutes that each reset token will be
     | considered valid. This security feature keeps tokens short-lived so
     | they have less time to be guessed. You may change this as needed.
@@ -111,7 +111,18 @@ return [
     | confirmation screen. By default, the timeout lasts for three hours.
     |
     */
-
+    //trannhatminh
     'password_timeout' => env('AUTH_PASSWORD_TIMEOUT', 10800),
 
 ];
+
+
+
+
+
+
+
+
+
+
+//nhatminh

@@ -14,7 +14,7 @@ return [
     */
 
     'default' => env('QUEUE_CONNECTION', 'database'),
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Queue Connections

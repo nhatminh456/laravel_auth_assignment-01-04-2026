@@ -6,7 +6,7 @@ use Monolog\Handler\SyslogUdpHandler;
 use Monolog\Processor\PsrLogMessageProcessor;
 
 return [
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Default Log Channel
@@ -17,9 +17,9 @@ return [
     | the channels present in the list of "channels" configured below.
     |
     */
-
+    //trannhatminh
     'default' => env('LOG_CHANNEL', 'stack'),
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Deprecations Log Channel

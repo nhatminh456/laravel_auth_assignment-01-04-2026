@@ -14,7 +14,7 @@ return [
     */
 
     'name' => env('APP_NAME', 'Laravel'),
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Application Environment
@@ -25,9 +25,9 @@ return [
     | services the application utilizes. Set this in your ".env" file.
     |
     */
-
+    //trannhatminh
     'env' => env('APP_ENV', 'production'),
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Application Debug Mode

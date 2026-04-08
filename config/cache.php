@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Str;
-
+//trannhatminh
 return [
 
     /*
@@ -33,7 +33,7 @@ return [
     */
 
     'stores' => [
-
+        //trannhatminh
         'array' => [
             'driver' => 'array',
             'serialize' => false,
@@ -90,7 +90,7 @@ return [
         'octane' => [
             'driver' => 'octane',
         ],
-
+        //trannhatminh
         'failover' => [
             'driver' => 'failover',
             'stores' => [
@@ -112,6 +112,6 @@ return [
     |
     */
 
-    'prefix' => env('CACHE_PREFIX', Str::slug((string) env('APP_NAME', 'laravel')).'-cache-'),
+    'prefix' => env('CACHE_PREFIX', Str::slug((string) env('APP_NAME', 'laravel')) . '-cache-'),
 
 ];

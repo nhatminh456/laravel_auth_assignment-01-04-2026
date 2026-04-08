@@ -4,7 +4,7 @@ use Illuminate\Support\Str;
 use Pdo\Mysql;
 
 return [
-
+    //trannhatminh
     /*
     |--------------------------------------------------------------------------
     | Default Database Connection Name
@@ -16,7 +16,7 @@ return [
     | is explicitly specified when you execute a query / statement.
     |
     */
-
+    //trannhatminh
     'default' => env('DB_CONNECTION', 'sqlite'),
 
     /*
@@ -29,7 +29,7 @@ return [
     | is supported by Laravel. You're free to add / remove connections.
     |
     */
-
+    //trannhatminh
     'connections' => [
 
         'sqlite' => [
